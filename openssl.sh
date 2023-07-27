@@ -2,9 +2,9 @@
 
 
 
-wget https://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2d.tar.gz --no-check-certificate
-tar zxvf openssl-1.0.2d.tar.gz
-cd openssl-1.0.2d
+wget https://ftp.openssl.org/source/old/1.1.1/openssl-1.1.1g.tar.gz --no-check-certificate
+tar zxvf openssl-1.1.1g.tar.gz
+cd openssl-1.1.1g
 ./config
 make
 sudo make install
