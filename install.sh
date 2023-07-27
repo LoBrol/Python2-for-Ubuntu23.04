@@ -12,6 +12,8 @@ sudo apt install -y wget
 sudo apt install -y curl
 sudo apt install -y git
 sudo apt install -y make
+sudo apt install -y openssl
+sudo apt install -y libssl-dev
 
 
 # ----- DOWNLOADING/BUILDING PYTHON ---------------------------------
@@ -26,4 +28,4 @@ source ~/.bashrc
 
 # ----- DOWNLOADING/INSTALLING PIP ----------------------------------
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
-sudo python2 get-pip.py
+sudo python2.7 get-pip.py
