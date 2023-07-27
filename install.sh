@@ -6,14 +6,14 @@ sudo apt update
 
 # ----- INSTALLING NECESSARY PROGRAMS/LIBRARIES ---------------------
 sudo apt install -y build-essential
-sudo apt install -y gcc
+sudo apt install -y openssl
+sudo apt install -y libssl-dev
 sudo apt install -y zlib1g-dev
+sudo apt install -y gcc
 sudo apt install -y wget
 sudo apt install -y curl
 sudo apt install -y git
 sudo apt install -y make
-sudo apt install -y openssl
-sudo apt install -y libssl-dev
 
 
 # ----- DOWNLOADING/BUILDING PYTHON ---------------------------------
