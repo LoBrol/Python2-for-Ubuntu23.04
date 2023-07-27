@@ -2,13 +2,14 @@
 
 
 
-wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz --no-check-certificate
-tar xzf Python-2.7.9.tgz
-cd Python-2.7.9
+wget https://www.python.org/ftp/python/2.7.9/Python-2.7.18.tgz --no-check-certificate
+tar xzf Python-2.7.18.tgz
+cd Python-2.7.18
 ./configure --enable-optimizations --includedir=/usr/include/tirpc/
 make
 sudo make install
 
 
 sudo ln -s /usr/local/bin/python2.7 /usr/bin/python2
+sudo ln -s /usr/local/bin/python2.7 /usr/bin/python
 sudo ldconfig
