@@ -2,7 +2,7 @@
 
 
 
-wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
+wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz --no-check-certificate
 tar xzf Python-2.7.9.tgz
 cd Python-2.7.9
 ./configure --enable-optimizations --includedir=/usr/include/tirpc/
