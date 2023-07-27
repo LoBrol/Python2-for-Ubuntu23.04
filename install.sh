@@ -19,16 +19,16 @@ sudo apt install -y make
 
 # ----- DOWNLOADING/BUILDING PYTHON ---------------------------------
 wget https://www.python.org/ftp/python/2.7.9/Python-2.7.9.tgz
-sudo tar xzf Python-2.7.9.tgz
+tar xzf Python-2.7.9.tgz
 cd Python-2.7.9
 ./configure --enable-optimizations --includedir=/usr/include/tirpc/
 #sudo make altinstall
-sudo make
-sudo make install
+make
+make install
 alias python2='python2.7' >> .bashrc
 source ~/.bashrc
 
 
 # ----- DOWNLOADING/INSTALLING PIP ----------------------------------
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
-sudo python2.7 get-pip.py
+python2.7 get-pip.py
