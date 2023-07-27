@@ -1,7 +1,7 @@
 #!/bin/sh
 
 
-wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz
+wget https://www.openssl.org/source/old/1.1.1/openssl-1.1.1t.tar.gz
 tar zxvf openssl-1.1.1g.tar.gz
 cd openssl-1.1.1g
 ./config --prefix=/home/ubuntu/openssl --openssldir=/home/ubuntu/openssl no-ssl2
