@@ -2,7 +2,7 @@
 
 
 
-wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz
+wget https://www.openssl.org/source/openssl-1.1.1g.tar.gz --no-check-certificate
 tar zxvf openssl-1.1.1g.tar.gz
 cd openssl-1.1.1g
 ./config
