@@ -1,6 +1,9 @@
 #!/bin/sh
 
 
+
+sudo apt remove openssl
+
 wget https://ftp.openssl.org/source/old/1.1.0/openssl-1.1.0a.tar.gz
 tar xvf openssl-1.1.0a.tar.gz
 cd openssl-1.1.0a
