@@ -2,7 +2,8 @@
 
 
 sudo apt update
-sudo apt install curl
+sudo apt install -y curl
+sudo apt install -y git
 
 curl https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
