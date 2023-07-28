@@ -5,7 +5,7 @@
 
 
 # new openssl install
-curl https://www.openssl.org/source/openssl-1.1.1a.tar.gz
+wget https://www.openssl.org/source/openssl-1.1.1a.tar.gz
 tar xzf openssl-1.1.1a.tar.gz
 cd openssl-1.1.1a
 ./config shared --prefix=/usr/local/
