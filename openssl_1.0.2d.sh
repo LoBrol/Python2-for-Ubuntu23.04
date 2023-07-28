@@ -5,7 +5,7 @@
 sudo apt remove openssl
 sudo rm -rf /usr/include/openssl
 
-wget https://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2d.tar.gz
+wget https://ftp.openssl.org/source/old/1.0.2/openssl-1.0.2d.tar.gz --no-check-certificate
 tar xvf openssl-1.0.2d.tar.gz
 cd openssl-1.0.2d
 ./config
