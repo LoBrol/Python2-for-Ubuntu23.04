@@ -9,7 +9,7 @@ cd Python-2.7.18
 wget https://gist.githubusercontent.com/rkitover/2d9e5baff1f1cc4f2618dee53083bd35/raw/7f33fcf5470a9f1013ac6ae7bb168368a98fe5a0/python-2.7.14-custom-static-openssl.patch
 git apply python-2.7.14-custom-static-openssl.patch
 
-./configure --enable-optimizations --includedir=/usr/include/tirpc/ --with-openssl-dir=/usr/local/ssl --disable-option-checking
+./configure --enable-optimizations --includedir=/usr/include/tirpc/ --with-openssl-dir=/usr/local/ssl/include/openssl --disable-option-checking  # Work with OpenSSL 1.0.2d
 make
 sudo make install
 
